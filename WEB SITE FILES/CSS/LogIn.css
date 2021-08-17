@@ -1,0 +1,142 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo Design */
+.wrapper .logo{
+    text-decoration: none;
+    font-family: Archivo Black;
+}
+
+.wrapper .logo span{
+    font-size: 45px; 
+    padding:0 5px;
+}
+
+.wrapper .logo .h{
+    color: crimson;
+    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
+    font-size: 55px;
+}
+
+.wrapper .logo .u{
+    color: #fff;
+    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
+}
+
+.wrapper .logo .n{
+    color: #fff;
+    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
+}
+
+.wrapper .logo .g{
+    color: #fff;
+    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
+}
+
+.wrapper .logo .e{
+    color: #fff;
+    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
+}
+
+.wrapper .logo .r{
+    color: #fff;
+    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
+}
+
+/* */
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+}
+
+.wrapper .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.wrapper .content .formContent{
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.wrapper .content .imgContent{
+    margin: 10px;
+}
+
+.wrapper .content .formContent .form .inputField{
+    margin: 10px 5px;
+    padding: 10px;
+}
+
+.wrapper .content .formContent .form .inputField label{
+    font-size: 17px;
+}
+
+.wrapper .content .formContent .form .inputField input{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    border: none;
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+}
+
+.wrapper .content .formContent .form .inputField input:focus{
+    background-color: transparent;
+    border-radius: 0px;
+    outline: none;
+}
+
+::placeholder {
+    color: #444;
+    opacity: 1; 
+  }
+  
+:-ms-input-placeholder {
+    color: #444;
+}
+
+.wrapper .content .formContent .forgot h1{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.wrapper .content .formContent .forgot h1 a{
+    text-decoration: none;
+}
+
+.wrapper .content .formContent .submit{
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .content .formContent .submit a{
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    font-size: 23px;
+    color: black;
+    border: 2px solid black;
+    background-color: crimson;
+    transition:color,background-color;
+    transition-duration: 0.5s;
+    display: inline-block;
+    margin: 20px;
+}
+
+.wrapper .content .formContent .submit a:hover{
+    color: crimson;
+    background-color: black;
+}
